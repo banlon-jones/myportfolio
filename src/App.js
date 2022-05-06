@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Navbar from './components/navbar/Navbar';
+import Hero from './components/hero/hero';
+import AboutMe from './components/aboutMe/aboutMe';
 
 function App() {
+  const owner = {
+    name: 'Banlon Jones',
+    email: 'banlonjones@gmail.com',
+    brief_about: 'Hi! I`m Banlon Jones. I’m a software developer with 3 years of experience working with Java, React, and Angular I graduated from the College of Technology, the University of Buea with a B.Tech degree in software engineering and spent 3 years working with Java, React, Angular in a startup and later joined Microverse a remote software development program that uses pair programming and project building to teach development in HTML/CSS/Javascript, React, Ruby and ruby on rails.',
+    image: 'https://avatars.githubusercontent.com/u/52419124?v=4',
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar name={owner.name} />
+      <div>
+        <Hero details={owner} />
+      </div>
+      <div>
+        <AboutMe />
+      </div>
+      <div>
+        <div className="text-black text-center">
+          <h3 className="m-4"> Projects </h3>
+        </div>
+      </div>
     </div>
   );
 }

@@ -2,47 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23a83480-7ded-4609-9edc-6caaeb0bd254" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/aboutMe/aboutMe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/aboutMe/aboutme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/frontend/skill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/hero.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/skills/skills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/akar-icons_github-fill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/cib_redux.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/fa-brands_angellist.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/full-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_angular-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_aws.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_css-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_google-gmail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_html-5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_java.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_javascript.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_jira.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_jquery.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_linkedin-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_mysql.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_netlify.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_postgresql.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logos_typescript-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/profilepic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/simple-icons_springboot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/vscode-icons_file-type-bitbucketpipeline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/vscode-icons_file-type-jest.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/vscode-icons_file-type-nestjs.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/Projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/projects.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project-card/ProjectCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project-card/project-card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/aboutMe/aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aboutMe/aboutme.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +31,7 @@
   <component name="ProjectId" id="27sS805zrv0Uf1X13MzR5tZz41e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mboadigital/mosst" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -109,6 +76,7 @@
       <workItem from="1650227768293" duration="6054000" />
       <workItem from="1650365310619" duration="2179000" />
       <workItem from="1650495170421" duration="270000" />
+      <workItem from="1652570427742" duration="9454000" />
     </task>
     <servers />
   </component>
@@ -127,17 +95,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/aboutMe/aboutMe.js</url>
-          <line>25</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

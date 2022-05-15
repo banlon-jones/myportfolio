@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/hero';
 import AboutMe from './components/aboutMe/aboutMe';
+import Projects from './components/projects/Projects';
 
 function App() {
   const owner = {
@@ -23,6 +24,9 @@ function App() {
       <div>
         <div className="text-black text-center">
           <h3 className="m-4"> Projects </h3>
+        </div>
+        <div className="container">
+          <Projects />
         </div>
       </div>
     </div>

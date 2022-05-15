@@ -1,4 +1,12 @@
 .over {
     margin-top: -5rem;
+    display: block;
+    visibility: visible;
 }
 
+@media screen and (max-width: 692px) {
+    .over {
+        display: none;
+        visibility: hidden;
+    }
+}

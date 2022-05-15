@@ -1,0 +1,40 @@
+.bg-lightBlue {
+  background: #ebebff;
+}
+
+.work-tags {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-button {
+  padding: 4px 12px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  border: none;
+}
+
+
+.work-button {
+  padding: 4px 15px;
+  height: 45px;
+  max-width: 130px;
+  font-size: 17px;
+  background: white;
+  border: 1px solid #5e3d93;
+  border-radius: 8px;
+  color: #5e3d93;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.work-button:hover {
+  background: #5e3d93;
+  color: #ebebff;
+}

@@ -1,7 +1,9 @@
 import React from 'react';
 import { Tabs, Tab } from 'react-bootstrap';
 import fullpic from '../../images/full-pic.png';
+import Skills from '../skills/skills';
 import './aboutme.css';
+import Experience from '../experience/experience';
 
 function AboutMe() {
   return (
@@ -31,14 +33,14 @@ function AboutMe() {
           <div>
             {/* eslint-disable-next-line react/jsx-no-undef */}
             <Tabs defaultActiveKey="skills" id="uncontrolled-tab-example" className="mb-3">
-              <Tab eventKey="skills" title="Main skills">
-                hello
+              <Tab eventKey="skills" title="Main skills" className="align-left">
+                <Skills />
               </Tab>
-              <Tab eventKey="achievements" title="Achievements">
+              <Tab eventKey="achievements" title="Achievements" className="align-left">
                 hi
               </Tab>
-              <Tab eventKey="experience" title="Experience">
-                yes
+              <Tab eventKey="experience" title="Experience" className="align-left">
+                <Experience />
               </Tab>
               <Tab eventKey="education" title="Education & certification">
                 yeah

@@ -4,7 +4,7 @@
 
 .work-tags {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   gap: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -20,10 +20,8 @@
   border: none;
 }
 
-
 .work-button {
-  padding: 4px 15px;
-  height: 45px;
+  padding: 15px;
   max-width: 130px;
   font-size: 17px;
   background: white;
@@ -32,9 +30,28 @@
   color: #5e3d93;
   cursor: pointer;
   transition: all 0.2s linear;
+  text-decoration: none;
 }
 
 .work-button:hover {
   background: #5e3d93;
-  color: #ebebff;
+  border: solid #fff 1px;
+  color: #fff;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.work {
+  padding: 12px;
+  max-width: 130px;
+  font-size: 17px;
+  background: white;
+  border: 1px solid #5e3d93;
+  border-radius: 8px;
+  color: #5e3d93;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  text-decoration: none;
 }

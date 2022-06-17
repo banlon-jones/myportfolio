@@ -1,45 +1,28 @@
 import React from 'react';
-import Skill from '../frontend/skill';
 
 function Skills() {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-md-4 mt-4">
-          <h4> Frontend </h4>
-          <div className="row">
-            <Skill />
-          </div>
-        </div>
-        <div className="col-md-4 mt-4">
-          <h4> Backend </h4>
-          <div className="row">
-            <Skill />
-          </div>
-        </div>
-        <div className="col-md-4 mt-4">
-          <h4> DevOps tools </h4>
-          <div className="row">
-            <Skill />
-          </div>
-        </div>
-        <div className="col-md-4 mt-4">
-          <h4> Tools & Methods </h4>
-          <div className="row">
-            <Skill />
-          </div>
-        </div>
-        <div className="col-md-4 mt-4">
-          <h4> Professional skills </h4>
-          <div className="row">
-            <Skill />
-          </div>
-        </div>
-        <div className="col-md-4 mt-4">
-          <h4> soft skills </h4>
-          <div className="row">
-            <Skill />
-          </div>
+    <div>
+      <div>
+        <div>
+          <p>
+            <strong> Front-End: </strong>
+            JavaScript, React, Redux, Redux toolkit jQuery,
+            HTML5, CSS3, Angular, Typescript, UX/UI, Figma
+          </p>
+          <p>
+            <strong>Back-End: </strong>
+            Rails, java, SpringBoot, MySQL, Postgresql, Nest.js
+          </p>
+          <p>
+            <strong>Tools & Methods:</strong>
+            Git, GitHub, Heroku, Netlify, Responsive Development, TDD, Chrome Dev Tools
+          </p>
+          <p>
+            <strong> DevOps tools: </strong>
+            Travis Ci, Concourse CI, Docker, AWS, Digital Oceans
+          </p>
+
         </div>
       </div>
     </div>

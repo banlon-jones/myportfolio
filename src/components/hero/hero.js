@@ -5,11 +5,11 @@ function Hero(Props) {
   return (
     <div className="bg-purple">
       <div className="container pt-5">
-        <div className="row">
-          <div className="col-md-6 pt-5 col-12 text-white">
-            <h3>
-              Hi! My name is Banlon Jones. I’m a software developer with 3 years of experience
-            </h3>
+        <div className="row text-left">
+          <div className="col-md-6 mt-5 pt-5 col-12 text-white">
+            <h2>
+              Hi, I’m Jones, Glad to see you!
+            </h2>
             <p className="mt-5">
               {details.brief_about}
             </p>
@@ -18,7 +18,7 @@ function Hero(Props) {
             </button>
           </div>
           <div className="col-md-6 p-4">
-            <img className="rounded-circle img-thumbnail" src={details.image} alt="banlon jones smiling" />
+            <img className="img-fluid" src={details.image} alt="banlon jones smiling" />
           </div>
         </div>
       </div>

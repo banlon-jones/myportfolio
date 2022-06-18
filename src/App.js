@@ -2,15 +2,16 @@ import './App.css';
 import React from 'react';
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/hero';
-import AboutMe from './components/aboutMe/aboutMe';
 import Projects from './components/projects/Projects';
 
 function App() {
   const owner = {
     name: 'Banlon Jones',
     email: 'banlonjones@gmail.com',
-    brief_about: 'Hi! I`m Banlon Jones. I’m a software developer with 3 years of experience working with Java, React, and Angular I graduated from the College of Technology, the University of Buea with a B.Tech degree in software engineering and spent 3 years working with Java, React, Angular in a startup and later joined Microverse a remote software development program that uses pair programming and project building to teach development in HTML/CSS/Javascript, React, Ruby and ruby on rails.',
-    image: 'https://avatars.githubusercontent.com/u/52419124?v=4',
+    brief_about: 'I’m a software developer! '
+      + 'I can help you build a product, features or websites, Look through some of my work and experience! '
+      + 'If you like what you see and have a project you need a developer, don’t hestiate to contact me.',
+    image: 'http://banlonjones.tech/wp-content/uploads/elementor/thumbs/profile-picture-removebg-preview-pq645nhouftjwuiyhldg35ky0stey19vokibsy2r9k.png',
   };
   return (
     <div className="App">
@@ -18,9 +19,9 @@ function App() {
       <div>
         <Hero details={owner} />
       </div>
-      <div>
+      {/* <div>
         <AboutMe />
-      </div>
+      </div> */}
       <div>
         <div className="text-black text-center">
           <h3 className="m-4"> Projects </h3>

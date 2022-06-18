@@ -18,9 +18,22 @@ const ProjectCard = (Props) => {
             <div className="col-md-6">
               <h3>{project.title}</h3>
               <div className="d-flex">
-                <h5 className="p-2">CANOPY - </h5>
-                <span className="p-2">Back End Dev - </span>
-                <span className="p-2">2015</span>
+                <h5 className="p-2 bg-lightBlue rounded">
+                  {' '}
+                  {project.organization}
+                  {' '}
+                </h5>
+                <span className="p-2">
+                  {project.role}
+                  {' '}
+                  -
+                  {' '}
+                </span>
+                <span className="p-2">
+                  {
+                    project.year
+                  }
+                </span>
               </div>
               <div>
                 <p className="m-2">
@@ -53,6 +66,26 @@ const ProjectCard = (Props) => {
           <Modal.Body>
             <div className="row">
               <div className="col-12">
+                <div className="p-2">
+                  <div className="d-flex">
+                    <h5 className="p-2 bg-lightBlue rounded shadow-sm">
+                      {' '}
+                      {project.organization}
+                      {' '}
+                    </h5>
+                    <span className="p-2">
+                      {project.role}
+                      {' '}
+                      -
+                      {' '}
+                    </span>
+                    <span className="p-2">
+                      {
+                        project.year
+                      }
+                    </span>
+                  </div>
+                </div>
                 <div>
                   <img src={project.cover} alt="caption" className="img-fluid" />
                 </div>
@@ -60,7 +93,7 @@ const ProjectCard = (Props) => {
             </div>
             <div>
               <div className="col-12">
-                <div>
+                <div className="p-2">
                   <div>
                     <ul className="work-tags">
                       {
@@ -72,18 +105,18 @@ const ProjectCard = (Props) => {
                       }
                     </ul>
                   </div>
-                  <div>
+                  <div className="py-2">
                     <p>
                       {
                         project.description
                       }
                     </p>
                   </div>
-                  <div>
+                  <div className="py-3">
                     <a href={project.demo} className="work mt-5" target="_blank" rel="noreferrer">
                       See Demo
                     </a>
-                    <a href={project.repo} className="work m-5" target="_blank" rel="noreferrer">
+                    <a href={project.repo} className="work my-5 mx-2" target="_blank" rel="noreferrer">
                       See Source
                     </a>
                   </div>

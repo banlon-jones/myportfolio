@@ -11,7 +11,7 @@ function App() {
     brief_about: 'I’m a software developer! '
       + 'I can help you build a product, features or websites, Look through some of my work and experience! '
       + 'If you like what you see and have a project you need a developer, don’t hestiate to contact me.',
-    image: 'http://banlonjones.tech/wp-content/uploads/elementor/thumbs/profile-picture-removebg-preview-pq645nhouftjwuiyhldg35ky0stey19vokibsy2r9k.png',
+    image: 'https://res.cloudinary.com/dbb6u0ke3/image/upload/v1655556550/portfolio/profile-picture-removebg-preview_fs15sp.png',
   };
   return (
     <div className="App">

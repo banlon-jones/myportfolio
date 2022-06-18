@@ -4,9 +4,7 @@
     <list default="true" id="23a83480-7ded-4609-9edc-6caaeb0bd254" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/hero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project-card/ProjectCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/project-card/ProjectCard.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="xslt.associations" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -93,6 +91,7 @@
       <workItem from="1654779930295" duration="12908000" />
       <workItem from="1655050517475" duration="128000" />
       <workItem from="1655469156605" duration="23064000" />
+      <workItem from="1655556862824" duration="2009000" />
     </task>
     <task id="LOCAL-00001" summary="project section added">
       <created>1655486995391</created>

@@ -31,7 +31,7 @@ const projs = [
     role: 'fullstack dev',
     description: '  '
       + 'Resort system is a web application that allow visitors to make reservation for their favorite resorts, visitors can see a list of resorts and resort details and can reserve after signing up or login',
-    stack: ['React', 'HTML', 'CSS', 'Javascript', 'Redux', 'ReduxTool'],
+    stack: ['React', 'HTML', 'CSS', 'Javascript', 'Redux', 'ReduxTool', 'Ruby', 'ruby on rails'],
     cover: 'https://res.cloudinary.com/dbb6u0ke3/image/upload/v1655556729/portfolio/Screenshot_from_2022-06-17_18-06-17_idobzv.png',
     demo: 'https://resorts-booking.netlify.app/',
     repo: 'https://github.com/banlon-jones/booking-appointment-rails-backend',

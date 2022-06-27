@@ -1,10 +1,15 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/hero';
 import Projects from './components/projects/Projects';
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize('G-XMK4D74F5V');
+    ReactGA.pageview(window.location.pathname);
+  });
   const owner = {
     name: 'Banlon Jones',
     email: 'banlonjones@gmail.com',

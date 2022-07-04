@@ -19,3 +19,7 @@ code {
 .align-right {
   text-align: right;
 }
+
+.container-10 {
+  margin: 5%;
+}

@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23a83480-7ded-4609-9edc-6caaeb0bd254" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/contact/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hero/hero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/skills/skills.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +100,9 @@
       <workItem from="1655556862824" duration="2320000" />
       <workItem from="1655646518868" duration="773000" />
       <workItem from="1655988369811" duration="387000" />
-      <workItem from="1656364443646" duration="3889000" />
+      <workItem from="1656364443646" duration="15647000" />
+      <workItem from="1656505770731" duration="3090000" />
+      <workItem from="1656930237705" duration="1720000" />
     </task>
     <task id="LOCAL-00001" summary="project section added">
       <created>1655486995391</created>
@@ -119,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655647288981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="google analytic added">
+      <created>1656368759731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656368759731</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +153,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project section added" />
-    <option name="LAST_COMMIT_MESSAGE" value="project section added" />
+    <MESSAGE value="google analytic added" />
+    <option name="LAST_COMMIT_MESSAGE" value="google analytic added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

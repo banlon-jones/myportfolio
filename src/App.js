@@ -4,6 +4,8 @@ import ReactGA from 'react-ga';
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/hero';
 import Projects from './components/projects/Projects';
+import Skills from './components/skills/skills';
+import Contact from './components/contact/contact';
 
 function App() {
   useEffect(() => {
@@ -24,9 +26,11 @@ function App() {
       <div>
         <Hero details={owner} />
       </div>
-      {/* <div>
-        <AboutMe />
-      </div> */}
+      <div>
+        <div className="container-10 p-2">
+          <Skills />
+        </div>
+      </div>
       <div>
         <div className="text-black text-center">
           <h3 className="m-4"> Projects </h3>
@@ -34,7 +38,19 @@ function App() {
         <div className="container">
           <Projects />
         </div>
+        <div className="text-black text-center">
+          <a href="https://github.com/banlon-jones" className="btn btn-lg btn-primary"> More Projects </a>
+        </div>
       </div>
+      <footer className="bg-purple">
+        <div className="p-5 mt-4">
+          <div className="row">
+            <div className="col-12 col-md-6 offset-md-3">
+              <Contact />
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

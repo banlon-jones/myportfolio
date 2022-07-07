@@ -18,9 +18,9 @@ function Hero(Props) {
             <p className="mt-5 details">
               {details.brief_about}
             </p>
-            <button type="button" className="btn btn-lg btn-danger">
+            <a href="#contact" className="btn btn-lg btn-danger">
               Contact me
-            </button>
+            </a>
           </div>
           <div className="col-md-6 p-4">
             <img className="img-fluid dp" src={details.image} alt="banlon jones smiling" />

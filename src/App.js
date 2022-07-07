@@ -23,26 +23,26 @@ function App() {
   return (
     <div className="App">
       <Navbar name={owner.name} />
-      <div>
+      <div id="about">
         <Hero details={owner} />
       </div>
-      <div>
+      <div id="skills">
         <div className="container-10 p-2">
           <Skills />
         </div>
       </div>
       <div>
         <div className="text-black text-center">
-          <h3 className="m-4"> Projects </h3>
+          <h3 className="mt-4"> Projects </h3>
         </div>
-        <div className="container-10">
+        <div className="container-10" id="projects">
           <Projects />
         </div>
         <div className="text-black text-center">
           <a href="https://github.com/banlon-jones" className="btn btn-lg btn-primary"> More Projects </a>
         </div>
       </div>
-      <footer className="bg-purple">
+      <footer className="bg-purple" id="contact">
         <div className="p-5 mt-4">
           <div className="row">
             <div className="col-12 col-md-6 offset-md-3">

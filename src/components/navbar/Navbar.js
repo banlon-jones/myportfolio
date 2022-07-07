@@ -21,16 +21,16 @@ function Navbar(Props) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#!">About me</a>
+              <a className="nav-link active" aria-current="page" href="#about">About me</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#!">Skills</a>
+              <a className="nav-link" href="#skills">Skills</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#!">Projects</a>
+              <a className="nav-link" href="#projects">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#!">Contact me</a>
+              <a className="nav-link" href="#contact">Contact me</a>
             </li>
           </ul>
         </div>

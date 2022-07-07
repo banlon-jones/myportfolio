@@ -35,7 +35,7 @@ function App() {
         <div className="text-black text-center">
           <h3 className="m-4"> Projects </h3>
         </div>
-        <div className="container">
+        <div className="container-10">
           <Projects />
         </div>
         <div className="text-black text-center">

@@ -12,10 +12,10 @@ const ProjectCard = (Props) => {
       <div className="card text-left m-4">
         <div className="card-body p-3">
           <div className="row">
-            <div className="col-md-6">
-              <img src={project.cover} alt="project preview" className="img-fluid rounded" />
+            <div className="col-md-4">
+              <img src={project.cover} alt="project preview" className="img-fluid rounded image" />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-8">
               <h3>{project.title}</h3>
               <div className="d-flex">
                 <h5 className="p-2 bg-lightBlue rounded">

@@ -36,5 +36,17 @@ const projs = [
     demo: 'https://resorts-booking.netlify.app/',
     repo: 'https://github.com/banlon-jones/booking-appointment-rails-backend',
   },
+  {
+    title: 'Covid 2019',
+    year: '2022',
+    organization: 'Microverse',
+    role: 'Frontend dev',
+    description: '  '
+      + 'web app for showing covid 19 statistics in the united states of ammerica by state as regions, built using ReactJS and redux. the data is from Narrativa',
+    stack: ['React', 'HTML', 'CSS', 'Javascript', 'Redux', 'ReduxTool', 'API', 'Narrativa'],
+    cover: 'https://res.cloudinary.com/dbb6u0ke3/image/upload/v1657221037/portfolio/covid-app_cdupev.png',
+    demo: 'https://global-covid-data.netlify.app/',
+    repo: 'https://github.com/banlon-jones/covid-app',
+  },
 ];
 export default projs;

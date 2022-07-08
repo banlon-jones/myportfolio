@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23a83480-7ded-4609-9edc-6caaeb0bd254" name="Default Changelist" comment="skills and experience added">
-      <change afterPath="$PROJECT_DIR$/src/emailKeys.js" afterDir="false" />
+    <list default="true" id="23a83480-7ded-4609-9edc-6caaeb0bd254" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project-card/ProjectCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/project-card/ProjectCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project-card/project-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/project-card/project-card.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +102,7 @@
       <workItem from="1656930237705" duration="4721000" />
       <workItem from="1657033908769" duration="597000" />
       <workItem from="1657194164423" duration="1682000" />
-      <workItem from="1657210622795" duration="6766000" />
+      <workItem from="1657210622795" duration="12417000" />
     </task>
     <task id="LOCAL-00001" summary="project section added">
       <created>1655486995391</created>
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657196124871</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="skills and experience added">
+      <created>1657218725535</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657218725535</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -7,7 +7,7 @@ const Contact = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
   const onSubmit = (data) => {
     // eslint-disable-next-line max-len
-    send(emailKeys.SERVICE_ID, emailKeys.TEMPLATE_ID, data, emailKeys.PUBLIC_KEY).then((response) => {
+    send(emailKeys.SERVICE_ID, emailKeys.TEMPLATE_ID, { ...data, ...{ reply_to: data.email } }, emailKeys.PUBLIC_KEY).then((response) => {
       console.log(response);
       alert('Thanks Email sent');
     }, (errors) => {

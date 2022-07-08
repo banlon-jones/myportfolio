@@ -38,19 +38,27 @@ function Skills() {
           </div>
           <div className="mt-2">
             <h5> React & Redux </h5>
-            <ProgressBar variant="success" animated now={100} />
+            <ProgressBar animated now={100} />
           </div>
           <div className="mt-2">
             <h5> Angular </h5>
-            <ProgressBar variant="danger" animated now={94} />
+            <ProgressBar animated now={94} />
+          </div>
+          <div className="mt-2">
+            <h5> Unit Testing </h5>
+            <ProgressBar animated now={100} />
+          </div>
+          <div className="mt-2">
+            <h5> Pair Programming </h5>
+            <ProgressBar animated now={100} />
           </div>
           <div className="mt-2">
             <h5> Ruby on rails </h5>
-            <ProgressBar variant="warning" animated now={90} />
+            <ProgressBar animated now={90} />
           </div>
           <div className="mt-2">
             <h5> Node JS </h5>
-            <ProgressBar variant="danger" animated now={90} />
+            <ProgressBar animated now={90} />
           </div>
         </div>
       </div>

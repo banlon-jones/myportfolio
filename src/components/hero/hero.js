@@ -21,7 +21,7 @@ function Hero(Props) {
             </a>
           </div>
           <div className="col-md-6 p-4">
-            <img className="img-fluid dp" src={details.image} alt="banlon jones smiling" />
+            <img className="img-fluid dp" src={details.image} alt="banlon jones smiling with a white t-shirt" />
           </div>
         </div>
       </div>

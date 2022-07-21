@@ -15,9 +15,8 @@ function App() {
   const owner = {
     name: 'Banlon Jones',
     email: 'banlonjones@gmail.com',
-    brief_about: 'I’m a software developer! '
-      + 'I can help you build a product, features or websites, Look through some of my work and experience! '
-      + 'If you like what you see and have a project you need a developer, don’t hestiate to contact me.',
+    brief_about: 'I’m a software developer. I can help you build a product, features or website. Look through some of my work and experience.\n'
+      + 'If you like what you see and have a project you need a developer don’t hesitate to contact me.',
     image: 'https://res.cloudinary.com/dbb6u0ke3/image/upload/v1655556550/portfolio/profile-picture-removebg-preview_fs15sp.png',
   };
   return (
@@ -27,19 +26,19 @@ function App() {
         <Hero details={owner} />
       </div>
       <div id="skills">
-        <div className="container-10 p-2">
+        <div className="container-10 p-1">
           <Skills />
         </div>
       </div>
       <div>
         <div className="text-black text-center">
-          <h3 className="mt-4"> Projects </h3>
+          <h1> Projects </h1>
         </div>
         <div className="container-10" id="projects">
           <Projects />
         </div>
         <div className="text-black text-center">
-          <a href="https://github.com/banlon-jones" className="btn btn-lg btn-primary"> More Projects </a>
+          <a href="https://github.com/banlon-jones" target="_blank" className="btn btn-lg btn-primary" rel="noreferrer"> More Projects </a>
         </div>
       </div>
       <footer className="bg-purple" id="contact">

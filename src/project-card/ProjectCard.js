@@ -19,15 +19,11 @@ const ProjectCard = (Props) => {
               <h3>{project.title}</h3>
               <div className="d-flex">
                 <h5 className="p-2 bg-lightBlue rounded">
-                  {' '}
                   {project.organization}
-                  {' '}
                 </h5>
                 <span className="p-2">
                   {project.role}
-                  {' '}
                   -
-                  {' '}
                 </span>
                 <span className="p-2">
                   {
@@ -37,7 +33,10 @@ const ProjectCard = (Props) => {
               </div>
               <div>
                 <p className="m-2">
-                  {`${project.description.slice(0, 200)} ...`}
+                  {`${project.description.slice(0, 200)}...`}
+                  <button type="button" className="btn" onClick={handleShow}>
+                    see more
+                  </button>
                 </p>
               </div>
               <div>

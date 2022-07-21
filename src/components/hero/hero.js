@@ -11,7 +11,7 @@ function Hero(Props) {
             <h2 className="text-xl">
               Hi,
               <br />
-              I’m Jones,
+              I’m Jones.
               <br />
               Glad to see you!
             </h2>

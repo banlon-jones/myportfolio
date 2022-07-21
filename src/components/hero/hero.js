@@ -9,9 +9,7 @@ function Hero(Props) {
         <div className="row text-left p-12">
           <div className="col-md-6 mt-5 pt-5 col-12 text-white">
             <h2 className="text-xl">
-              Hi,
-              <br />
-              I’m Jones.
+              Hi, I’m Jones.
               <br />
               Glad to see you!
             </h2>
